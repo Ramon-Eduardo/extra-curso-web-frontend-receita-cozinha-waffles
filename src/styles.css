@@ -1,0 +1,158 @@
+* {
+    font-family: inter;
+}
+
+body {
+    background-color:#FFDB63 ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    margin-top: 30px;
+    background-color:#FFFFFF ;
+    .content {
+        height: 113px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            p {
+                margin: 0;
+                line-height: 1;
+                font-size: 26px;
+            }
+        }
+        .navegacao {
+            display: flex;
+            gap: 20px;
+            a {
+                font-weight: bold;
+                text-decoration: none;
+                color: #2C2B2B ;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.domain {
+    color: #2C2B2B ;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icone {
+    width: 28px;
+    height: 26px;
+    top: 9px;
+}
+
+.banner {
+    background-image: url('./assets/images/Banner.png');
+    background-size: cover;
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        max-width: 50%;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.banner img{
+    width: 100%;
+}
+
+.receitas {
+    padding: 60px 0;
+    background-color: white;
+    .receitasContent {
+        .titleReceitas {
+            font-size: 39px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .listaDeReceitas {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            .cardReceita {
+                background-color:#F5F2F2 ;
+                .cardHeaderReceita{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .cardContentReceita {
+                    padding: 25px 38px 41px;
+                    h3{
+
+                    }
+                    p{
+                        
+                    }
+                    a {
+                        background-color:#FFDB63 ;
+                        text-decoration: none;
+                        padding: 9px 33px;
+                        border-radius: 32px;
+                        font-weight: bold;
+                        color: #2C2B2B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rodape { 
+    background-color: #FFDB63;
+    display: flex;
+    height: 273px;
+    .logoRodape {
+            display: flex;
+            align-content: space-between;
+        .bannerRodape {
+            h2 {
+                font-size: 48px;
+            }
+        .redes {
+            h4 {
+                font-size: 26px;
+            }
+        }
+        }
+    }
+}
